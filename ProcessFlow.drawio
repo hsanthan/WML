@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-10-31T14:24:43.680Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="PvFDroeax1tPAh1VTu69" version="22.0.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1289" dy="1888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="KMn1Dd83FeMK1CiavQDr-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Get Deployment Space ID" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="159" y="-70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-0" target="KMn1Dd83FeMK1CiavQDr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-0" target="KMn1Dd83FeMK1CiavQDr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-0" value="Create an empty python function&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="41" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-1" target="KMn1Dd83FeMK1CiavQDr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-1" target="KMn1Dd83FeMK1CiavQDr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-1" value="Upload/associate code to the python function" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-3" target="KMn1Dd83FeMK1CiavQDr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-3" target="KMn1Dd83FeMK1CiavQDr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-3" value="Deploy the python function (online/batch)" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-5" target="KMn1Dd83FeMK1CiavQDr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-5" target="KMn1Dd83FeMK1CiavQDr-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-5" value="Call score/prediction&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159" y="727" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-7" target="KMn1Dd83FeMK1CiavQDr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-7" value="&lt;div&gt;%%bash --out function_id -s &quot;$scoring_payload&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;curl -sk -X POST&amp;nbsp; &quot;$DATAPLATFORM_URL/ml/v4/functions?version=2023-10-26&quot;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --header &quot;Authorization: Bearer $TOKEN&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --header &quot;Content-Type: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --header &quot;Accept: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; --data-raw &quot;$SCORING_PAYLOAD&quot; | grep &#39;&quot;id&quot;: &#39; | awk -F &#39;&quot;&#39; &#39;{ print $4 }&#39; | sed -n 2p&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="-10" width="620" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-16" target="KMn1Dd83FeMK1CiavQDr-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-16" value="&lt;div&gt;%%bash --out attachment_id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;curl -sk -X PUT \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Authorization: Bearer $TOKEN&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Content-Type: application/gzip&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Accept: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --data-binary &quot;@scoringFunction.py.gz&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;$DATAPLATFORM_URL/ml/v4/functions/$FUNCTION_ID/code?space_id=$SPACE_ID&amp;amp;version=2023-10-26&quot;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;| grep &quot;attachment_id&quot; | awk -F &#39;&quot;&#39; &#39;{ print $4 }&#39;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="200" width="630" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-18" target="KMn1Dd83FeMK1CiavQDr-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-18" value="&lt;div&gt;%%bash --out func_deployment_id&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;curl -sk -X POST \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Authorization: Bearer $TOKEN&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Content-Type: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Accept: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --data &quot;$FUNC_DEPLOYMENT_PAYLOAD&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;$DATAPLATFORM_URL/ml/v4/deployments?version=2023-10-26&quot; | grep &#39;&quot;id&quot;: &#39; | awk -F &#39;&quot;&#39; &#39;{ print $4 }&#39; | sed -n 3p&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="440" width="630" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-20" value="&lt;div&gt;%%bash&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;curl -sk -X POST &quot;$DATAPLATFORM_URL/ml/v4/deployments/$FUNC_DEPLOYMENT_ID/predictions?version=2023-10-26&quot;\&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &#39;Content-Type: application/json&#39; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &#39;Accept: application/json&#39; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Authorization:Bearer&amp;nbsp; $TOKEN&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --data-raw &#39;{&quot;input_data&quot;:[{&quot;values&quot;:[[3]]}]}&#39;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="359" y="680" width="630" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-23" value="&lt;div&gt;&lt;div&gt;%%bash --out scoring_payload&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SCORING_PAYLOAD=&#39;{&quot;name&quot;: &quot;scaling python function2&quot;, &quot;space_id&quot;: &quot;&#39;&quot;$SPACE_ID&quot;&#39;&quot;, &quot;software_spec&quot;: {&quot;name&quot;: &quot;runtime-22.2-py3.10&quot;},&quot;type&quot;: &quot;python&quot;,&quot;sample_scoring_input&quot;: {&amp;nbsp; &quot;input_data&quot;: [{ &quot;values&quot; : [12] }]}}&#39;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="20" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-25" value="&lt;pre&gt;&lt;/pre&gt;Functions expect a gzip file that contains a python file that make up the function. Eg: score_function.py.gz&amp;nbsp;&lt;pre&gt;def score(payload):&lt;br&gt;       try:&lt;br&gt;            data = payload[&#39;input_data&#39;][0][&#39;values&#39;]&lt;br&gt;            return {&#39;predictions&#39;: [{&#39;values&#39;: [(data)*2]}]}&lt;br&gt;        except Exception as e:&lt;br&gt;            return {&#39;predictions&#39;: [{&#39;values&#39;: [repr(e)]}]}&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1030" y="205" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-27" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;%%bash --out func_deployment_payload&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;FUNC_DEPLOYMENT_PAYLOAD=&#39;{&quot;space_id&quot;: &quot;&#39;&quot;$SPACE_ID&quot;&#39;&quot;,&quot;name&quot;: &quot;dep score func&quot;, &quot;description&quot;: &quot;This is description&quot;,&quot;online&quot;: {},&quot;hardware_spec&quot;: {&quot;name&quot;: &quot;S&quot;},&quot;asset&quot;: {&quot;id&quot;: &quot;&#39;&quot;$FUNCTION_ID&quot;&#39;&quot;}}&#39;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;echo $FUNC_DEPLOYMENT_PAYLOAD&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="447" width="440" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-32" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-29" target="KMn1Dd83FeMK1CiavQDr-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-29" value="Any update - create function revision" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KMn1Dd83FeMK1CiavQDr-31" target="KMn1Dd83FeMK1CiavQDr-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-31" value="&lt;div&gt;%%bash&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;curl -sk -X POST \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Authorization: Bearer $TOKEN&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Content-Type: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --header &quot;Accept: application/json&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; --data &quot;$FUNC_REVISION_PAYLOAD&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;$DATAPLATFORM_URL/ml/v4/functions/$FUNCTION_ID/revisions?version=2023-10-26&quot; \&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; | python -m json.tool&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="930" width="630" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KMn1Dd83FeMK1CiavQDr-33" value="&lt;div&gt;%%bash --out func_revision_payload&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FUNC_REVISION_PAYLOAD=&#39;{&quot;space_id&quot;: &quot;&#39;&quot;$SPACE_ID&quot;&#39;&quot;, &quot;commit_message&quot;: &quot;Updating Score Function&quot;}&#39;&lt;/div&gt;&lt;div&gt;echo $FUNC_REVISION_PAYLOAD&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1050" y="955" width="395" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
