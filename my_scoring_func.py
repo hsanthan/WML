@@ -5,7 +5,7 @@ def score(payload):
         """
         try:
             data = payload['input_data'][0]['values']
-            time.sleep(120)
+            time.sleep(600)
             # print(data)
             return {
                 'predictions': [
