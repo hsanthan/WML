@@ -1,9 +1,11 @@
+import time
 def score(payload):
         """
         Score method.
         """
         try:
             data = payload['input_data'][0]['values']
+            time.sleep(120)
             # print(data)
             return {
                 'predictions': [
