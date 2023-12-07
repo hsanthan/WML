@@ -1,0 +1,1060 @@
+  {
+    "_disclaimer": "*** this document is completely fictional, created for demonstration use only",
+    "context": "uuid",
+    "type": "LVCTRForm",
+    "uuid": "927cc4d5-3add-4b1d-a46b-e6f96a5a83aa",
+    "reportDate": "2023-07-21T10:12:14.090Z",
+    "details": {
+      "twentyFourHourAggregationTypeCode": 4,
+      "twentyFourHourStartDateTime": "2023-07-17T04:30:34.550Z",
+      "twentyFourHourEndDateTime": "2023-07-18T04:30:33.550Z",
+      "activitySectorCode": 13
+    },
+    "transactionSummary": {
+      "count": 4,
+      "transactionUuids": [
+        "5fed417c-06f6-498f-b39c-747bd63b7cd9",
+        "a172f60e-759f-4194-a2c4-eeddaf625be6",
+        "a53d83ac-47be-4ada-9a38-fd7161f76eb6",
+        "88a43544-ab11-49c5-9086-4123b4df442f"
+      ]
+    },
+    "definitions": [
+      {
+        "givenName": "Nélson",
+        "surname": "Bérnhard",		
+        "type": "person",
+        "dob": "6/21/1933",
+        "emails": [
+		  "Adrienne.Rempel15@hotmail.com",
+		  "Nels.Bernhard@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "identifications": [
+          {
+            "uuid": "753b95bf-7103-4c67-ae56-73a97a6a6da5",
+            "number": "1P0iHQ",
+            "jurisdictionOfIssueCountryCode": "MX",
+            "jurisdictionOfIssueProvinceStateCode": "MS",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 4,
+            "typeCodeOther": null
+          }
+        ],
+        "occupations": [
+          {
+            "uuid": "a850e6a2-483d-423e-b100-0c9dc72ed04b",
+            "employer": "Ruëcker, Jêrde and Batz",
+            "occupation": "Retired",
+            "startDate": "2022-12-30T00:09:26.252Z",
+            "endDate": null,
+            "action": null
+          }
+        ],
+        "address": {
+          "uuid": "3806d329-38d0-4521-a60c-8ab8f699f698",
+          "countryCode": "CA",
+          "provinceStateCode": "ON",
+          "streetAddress": "Bath Rd",
+          "buildingNumber": "4039",
+          "city": "Kingston",
+          "postalZipCode": "K7M",
+          "district": null,
+          "unitNumber": null,
+          "startDate": "2013-09-12T22:51:28.370Z",
+          "endDate": null,
+          "action": null
+        },
+        "uuid": "27e164be-34d1-44e6-a365-f44321501234"
+      },
+      {
+        "givenName": "Jacques",
+        "surname": "Chirac",
+        "type": "person",
+        "dob": "9/7/1957",
+        "emails": [
+          "Sedrick.Carroll43@yahoo.com",
+          "Sean66@yahoo.com",
+          "Kenton.Klocko@hotmail.com"
+        ],
+        "phoneNumbers": [
+          {
+            "phoneNumber": "1-886-799-9445",
+            "extension": "590"
+          }
+        ],
+        "identifications": [
+          {
+            "uuid": "b3559c42-ac4e-4610-b913-ce632d034d89",
+            "number": "9CJqdFcTyUKHn",
+            "jurisdictionOfIssueCountryCode": "CA",
+            "jurisdictionOfIssueProvinceStateCode": "NS",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 5,
+            "typeCodeOther": null
+          }
+        ],
+        "occupations": [
+          {
+            "uuid": "d66cc1cf-3149-40a7-9ef2-b617361f557b",
+            "employer": "Hagenes - Swift",
+            "occupation": "Direct Response Director",
+            "startDate": "2001-09-07T07:45:12.364Z",
+            "endDate": null,
+            "action": null
+          }
+        ],
+        "address": {
+          "uuid": "0e1d558a-17e7-43c5-b008-e90ea029c17e",
+          "countryCode": "CA",
+          "provinceStateCode": "ON",
+          "streetAddress": "Queens Quay W",
+          "buildingNumber": "390",
+          "city": "TO",
+          "postalZipCode": null,
+          "district": null,
+          "unitNumber": null,
+          "startDate": "2011-09-07T07:45:12.364Z",
+          "endDate": null,
+          "action": null
+        },
+        "uuid": "cdeee34c-ce2e-4306-aea4-78c469561938"
+      },
+      {
+        "givenName": "Annie",
+        "surname": "Tremblay",
+        "type": "person",
+        "dob": "7/24/1975",
+        "emails": [
+          "Antonette33@hotmail.com"
+        ],
+        "phoneNumbers": [
+          {
+            "phoneNumber": "632.928.0770",
+            "extension": null
+          },
+          {
+            "phoneNumber": "(203) 846-4652",
+            "extension": "45331"
+          }
+        ],
+        "identifications": [
+          {
+            "uuid": "aa02c506-71a6-4dee-aa59-b2feec018d6c",
+            "number": "uARnqkqM1g03",
+            "jurisdictionOfIssueCountryCode": "CA",
+            "jurisdictionOfIssueProvinceStateCode": "NB",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 2,
+            "typeCodeOther": null
+          }
+        ],
+        "occupations": [],
+        "address": {
+          "uuid": "168ed37a-f868-4730-99a8-703bce75ca1e",
+          "countryCode": "CN",
+          "provinceStateCode": "ON",
+          "streetAddress": "Bloor Street Trail",
+          "buildingNumber": "979",
+          "city": "Torotno",
+          "postalZipCode": null,
+          "district": null,
+          "unitNumber": null,
+          "startDate": "2011-07-25T01:26:39.737Z",
+          "endDate": null,
+          "action": null
+        },
+        "uuid": "37230af8-8966-493d-a982-562b2ae2a89a"
+      },
+      {
+        "givenName": "Mable",
+        "surname": "Kunze",
+        "type": "person",
+        "dob": "9/27/1975",
+        "emails": [
+          "Jonathan50@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "identifications": [
+          {
+            "uuid": "30c99c44-bc39-42b9-970c-7f630562a900",
+            "number": "05pjQ0E1dQEJ",
+            "jurisdictionOfIssueCountryCode": "CA",
+            "jurisdictionOfIssueProvinceStateCode": "NU",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 3,
+            "typeCodeOther": "Other ID Type"
+          }
+        ],
+        "occupations": [
+          {
+            "uuid": "ba5a26f6-b48a-4aef-ade6-846244f067fd",
+            "employer": "Olson - Rosenbaum",
+            "occupation": "Customer Branding Engineer",
+            "startDate": "2007-09-27T07:15:31.071Z",
+            "endDate": null,
+            "action": null
+          }
+        ],
+        "address": {
+          "uuid": "a9a86172-fe43-49fb-81e3-f17964c25255",
+          "countryCode": "CN",
+          "provinceStateCode": "ON",
+          "streetAddress": "Avenue Campus",
+          "buildingNumber": "165",
+          "city": "Torotno",
+          "postalZipCode": null,
+          "district": null,
+          "unitNumber": null,
+          "startDate": "2010-09-27T07:15:31.071Z",
+          "endDate": null,
+          "action": null
+        },
+        "uuid": "78154812-6425-47e3-9a0b-d51b766e51e9"
+      },
+      {
+        "givenName": "Shane",
+        "surname": "Haag",
+        "type": "person",
+        "dob": "7/16/1950",
+        "emails": [
+          "Tate99@yahoo.com"
+        ],
+        "phoneNumbers": [],
+        "identifications": [
+          {
+            "uuid": "380df133-59b2-4172-86b8-557d46755f41",
+            "number": "4E190lGksgEZnMPRG",
+            "jurisdictionOfIssueCountryCode": "MX",
+            "jurisdictionOfIssueProvinceStateCode": null,
+            "jurisdictionOfIssueProvinceStateName": "San Luis Potosí",
+            "typeCode": 1,
+            "typeCodeOther": null
+          }
+        ],
+        "occupations": [],
+        "address": {
+          "uuid": "e6853bde-c295-49da-841c-399b574a9d70",
+          "countryCode": "CN",
+          "provinceStateCode": "ON",
+          "streetAddress": "Bloor Street Lane",
+          "buildingNumber": "412",
+          "city": "Toornto",
+          "postalZipCode": null,
+          "district": null,
+          "unitNumber": null,
+          "startDate": "2004-07-16T08:10:55.543Z",
+          "endDate": null,
+          "action": null
+        },
+        "uuid": "32fa5e20-f499-4ceb-861b-992160378c5f"
+      },
+      {
+        "type": "entity",
+        "dateOpened": "1839-07-21T00:47:14.794Z",
+        "name": "Bergstrom - MacGyver",
+        "natureOfBusiness": "syndicate sticky channels",
+        "emails": [
+          "Fredrick_Walter82@yahoo.com",
+          "Caroline32@gmail.com",
+          "Amos_Denesik@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "identifications": [
+          {
+            "uuid": "16de6a05-d459-417e-9150-0bd74655902f",
+            "number": "N9pQEvrrokPAB",
+            "jurisdictionOfIssueCountryCode": "CA",
+            "jurisdictionOfIssueProvinceStateCode": "AB",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 1,
+            "typeCodeOther": null
+          },
+          {
+            "uuid": "0d7dc829-2026-42f4-96f1-9ac4a6a80d3f",
+            "number": "7Wzp28Zn4T2w",
+            "jurisdictionOfIssueCountryCode": "MX",
+            "jurisdictionOfIssueProvinceStateCode": "TL",
+            "jurisdictionOfIssueProvinceStateName": null,
+            "typeCode": 4,
+            "typeCodeOther": null
+          }
+        ],
+        "address": {
+          "uuid": "fbf118a4-46f9-4665-a973-5ba334c2109d",
+          "countryCode": "CA",
+          "provinceStateCode": "ON",
+          "streetAddress": "Main Street East",
+          "buildingNumber": "314",
+          "city": "Hamilton",
+          "postalZipCode": "L8N 1H9",
+          "district": null,
+          "unitNumber": null
+        },
+        "uuid": "8a9061f5-5a84-484c-bff4-5d34e5a8f571"
+      }
+    ],
+    "transactions": [
+      {
+        "details": {
+          "transactionUuid": "5fed417c-06f6-498f-b39c-747bd63b7cd9",
+          "transactionDate": "2023-07-18T04:15:28.993Z",
+          "transactionMethodTypeCode": 9,
+          "locationReference": "MAIN"
+        },
+        "startingActions": [
+          {
+            "details": {
+              "virtualCurrencyAmount": "159442.34",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": "478327.03",
+              "sendingVirtualCurrencyAddresses": [
+                "3CJ7zNyHTY1aCNbLQ1Y6yj9X45mJFhF8tbDPGxZ",
+                "3csDry5kzEWDGRh29nxZFSuxCbeb8mk8J",
+                "3PpFUEkCf83yNU2fbetmd7FjXVqRPsrK",
+                "3BfGWSYhE6DyNE31tisBcTn4iJ7MskbMNT",
+                "1pF7yq8e3mU8Ke1QfUhds1pdjSuGf"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "6001.86",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": "18005.57",
+              "sendingVirtualCurrencyAddresses": [
+                "1TfGjyTyJEwPNoCF9TJvf2Xhy27"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": true
+            },
+            "conductors": [
+              {
+                "details": {
+                  "clientNumber": "19970069",
+                  "username": "J_Chirac76",
+                  "deviceTypeCode": 4,
+                  "deviceIdentificationNumber": "f3d6a158-db28-4474-968c-1365c7136e5e",
+                  "deviceIpAddress": "103.187.14.214",
+                  "requestDateTime": "2023-07-18T04:15:28.993Z",
+                  "onBehalfOfIndicator": false
+                },
+                "subject": {
+                  "$ref": "cdeee34c-ce2e-4306-aea4-78c469561938"
+                }
+              }
+            ],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          }
+        ],
+        "completingActions": [
+          {
+            "details": {
+              "dispositionTypeCode": 26,
+              "virtualCurrencyAmount": "165444.20",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": 496332.6,
+              "receivingVirtualCurrencyAddresses": [
+                "1QSo4agUkBBP7UcDVAQStY1HKpb",
+                "1FQbdCh4P9AjU6XRb1sJysW66TEpzWZVx3",
+                "3sWkU3aYVSTg5JzPeHYEYcHfWocBxVbDTeTLR"
+              ],
+              "beneficiaryIndicator": true,
+              "involvementIndicator": false
+            },
+            "beneficiaries": [
+              {
+                "details": {
+                  "clientNumber": "RKRVA2wW",
+                  "username": "Nels_Bern",
+                  "email": "Adrienne.Rempel15@hotmail.com"
+                },
+                "subject": {
+                  "$ref": "27e164be-34d1-44e6-a365-f44321501234"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "8Du7TTYu",
+                  "username": "Annie15",
+                  "email": "Antonette33@hotmail.com"
+                },
+                "subject": {
+                  "$ref": "37230af8-8966-493d-a982-562b2ae2a89a"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "fgGDW0Mi",
+                  "username": "Bergstrom-MacGyver.Rath26",
+                  "email": "Fredrick_Walter82@yahoo.com"
+                },
+                "subject": {
+                  "$ref": "8a9061f5-5a84-484c-bff4-5d34e5a8f571"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "oKVw8sXR",
+                  "username": "Shane.Haag32",
+                  "email": "Tate99@yahoo.com"
+                },
+                "subject": {
+                  "$ref": "32fa5e20-f499-4ceb-861b-992160378c5f"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "UjhhPpUM",
+                  "username": "Mable.Kunze89",
+                  "email": "Jonathan50@gmail.com"
+                },
+                "subject": {
+                  "$ref": "78154812-6425-47e3-9a0b-d51b766e51e9"
+                }
+              }
+            ],
+            "involvements": []
+          }
+        ]
+      },
+      {
+        "details": {
+          "transactionUuid": "a172f60e-759f-4194-a2c4-eeddaf625be6",
+          "transactionDate": "2023-07-17T15:32:47.202Z",
+          "transactionMethodTypeCode": 9,
+          "locationReference": "MAIN"
+        },
+        "startingActions": [
+          {
+            "details": {
+              "virtualCurrencyAmount": "18880.73",
+              "virtualCurrencyTypeCode": "LIT",
+              "canadianExchangeRate": "56642.2",
+              "sendingVirtualCurrencyAddresses": [
+                "1CqbmohbYvzA7RwFj1eCLc44wpaUHXS",
+                "1G9cYG962eVS5uiJ435EGqdGtog",
+                "3VhKr8JeMkyQLJCASiSgujED13jJzKbsbj",
+                "3gc6YVhbfG1rSpTx33A6YcS43itPb4"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "41730.72",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": "125192.17",
+              "sendingVirtualCurrencyAddresses": [
+                "32UmN91jgKWXXiM98ZW6eqPQYDCWhS",
+                "1CnHvKHc3ctECkPRZ3SWY5v7QBSvmZJN7wukf",
+                "1ES8FRjbCa7NFYbmHoxmGT5BsmyR",
+                "1hrHAi8QVAtzTuWV1iyoLS92TnXGr2PLexYZjP6"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "14345.11",
+              "virtualCurrencyTypeCode": "LIT",
+              "canadianExchangeRate": "43035.33",
+              "sendingVirtualCurrencyAddresses": [
+                "3f6LfgrbSr2mrMxhAsLKeztXUTqDM4ctc6",
+                "3qx6Za9X63z9ZptDs3k1Lw2a9w6nqh6xc2KYv"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": true
+            },
+            "conductors": [
+              {
+                "details": {
+                  "clientNumber": "52050745",
+                  "username": "Shane.Haag",
+                  "deviceTypeCode": 1,
+                  "deviceIdentificationNumber": "f4de7384-8ec4-47c2-9e46-1a77009f3733",
+                  "deviceIpAddress": "e39c:a470:6042:4546:a61a:c5da:27d0:33be",
+                  "requestDateTime": "2023-07-17T15:32:47.202Z",
+                  "onBehalfOfIndicator": false
+                },
+                "subject": {
+                  "$ref": "32fa5e20-f499-4ceb-861b-992160378c5f"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "92839623",
+                  "username": "Annie76",
+                  "deviceTypeCode": 2,
+                  "deviceIdentificationNumber": "fcc656f6-a158-4c0b-ac21-3b7b68f8e255",
+                  "deviceIpAddress": "165.210.171.178",
+                  "requestDateTime": "2023-07-17T15:32:47.202Z",
+                  "onBehalfOfIndicator": false
+                },
+                "subject": {
+                  "$ref": "37230af8-8966-493d-a982-562b2ae2a89a"
+                }
+              }
+            ],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "19467.76",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": "58403.28",
+              "sendingVirtualCurrencyAddresses": [
+                "3yV2bP52xU4PGdoifwEgywUG2zFPPoZ",
+                "12qadPb5huxbptSyh2A4q8Jsyu",
+                "19C49Ry8QQmoJsZgG9jePMgCfrtCb54gJ5x",
+                "1twbP8yV9ubujRxu6D7L62EyFByk1JmmvAEmg",
+                "191vMftCgQovHcAfpvdETDzkMK7An6sPypr3sd"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          }
+        ],
+        "completingActions": [
+          {
+            "details": {
+              "dispositionTypeCode": 9,
+              "virtualCurrencyAmount": "94424.33",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": 283272.98,
+              "receivingVirtualCurrencyAddresses": [
+                "3PxTY3smyLYch8VHnFjbQQrYWqofmdPpboyDQV7B",
+                "15JLzZDkhsBqNLQibu4AfsdYFCp",
+                "1yLpbgjtX3KPH1sru14yS4kvDBU"
+              ],
+              "beneficiaryIndicator": true,
+              "involvementIndicator": true
+            },
+            "beneficiaries": [
+              {
+                "details": {
+                  "clientNumber": "xPz3MyXm",
+                  "username": "J.Chirac88",
+                  "email": "Kenton.Klocko@hotmail.com"
+                },
+                "subject": {
+                  "$ref": "cdeee34c-ce2e-4306-aea4-78c469561938"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "Jfm08TdN",
+                  "username": "Bergstrom-MacGyver.Runte",
+                  "email": "Caroline32@gmail.com"
+                },
+                "subject": {
+                  "$ref": "8a9061f5-5a84-484c-bff4-5d34e5a8f571"
+                }
+              }
+            ],
+            "involvements": [
+              {
+                "details": {
+                  "identifyingNumber": "4yPHpKAQbweY"
+                },
+                "name": {
+                  "$ref": "78154812-6425-47e3-9a0b-d51b766e51e9"
+                }
+              },
+              {
+                "details": {
+                  "identifyingNumber": "Al2zhT3Ch5Aj"
+                },
+                "name": {
+                  "$ref": "27e164be-34d1-44e6-a365-f44321501234"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "details": {
+          "transactionUuid": "a53d83ac-47be-4ada-9a38-fd7161f76eb6",
+          "transactionDate": "2023-07-17T05:18:27.109Z",
+          "transactionMethodTypeCode": 8,
+          "locationReference": "MAIN"
+        },
+        "startingActions": [
+          {
+            "details": {
+              "virtualCurrencyAmount": "332833.80",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": "998501.39",
+              "sendingVirtualCurrencyAddresses": [
+                "1WX7bCZQHAAoWuErVjW9useHynM6",
+                "1prYahAV3xL2gcQuYjzh4qNiF2"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": true
+            },
+            "conductors": [
+              {
+                "details": {
+                  "clientNumber": "73203784",
+                  "username": "Bergstrom-MacGyver.Wuckert",
+                  "deviceTypeCode": 1,
+                  "deviceIdentificationNumber": "f5cf72c2-0c00-4a93-be58-6dd7f6811356",
+                  "deviceIpAddress": "22.104.124.68",
+                  "requestDateTime": "2023-07-17T05:18:27.109Z",
+                  "onBehalfOfIndicator": false
+                },
+                "subject": {
+                  "$ref": "8a9061f5-5a84-484c-bff4-5d34e5a8f571"
+                }
+              }
+            ],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          }
+        ],
+        "completingActions": [
+          {
+            "details": {
+              "dispositionTypeCode": 10,
+              "virtualCurrencyAmount": "42920.55",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": 128761.66,
+              "receivingVirtualCurrencyAddresses": [
+                "3hMvvbk895r2pmvhWyA321oJNunj2eZrW9Z",
+                "1xzsVKjVKJMH8vcaa3DirXfmJFUydkh4e6",
+                "1tmgwx3T3fpZrSxi9UjdNBffHY19AwtRm",
+                "34XuapqdDynkw9XA2cRJcVznHopKEW9ZH"
+              ],
+              "beneficiaryIndicator": true,
+              "involvementIndicator": false
+            },
+            "beneficiaries": [
+              {
+                "details": {
+                  "clientNumber": "vZrU5tzx",
+                  "username": "Annie43",
+                  "email": "Antonette33@hotmail.com"
+                },
+                "subject": {
+                  "$ref": "37230af8-8966-493d-a982-562b2ae2a89a"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "C69UAzzq",
+                  "username": "Jacques51",
+                  "email": "Kenton.Klocko@hotmail.com"
+                },
+                "subject": {
+                  "$ref": "cdeee34c-ce2e-4306-aea4-78c469561938"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "1wwmkPo7",
+                  "username": "Mable_Kunze",
+                  "email": "Jonathan50@gmail.com"
+                },
+                "subject": {
+                  "$ref": "78154812-6425-47e3-9a0b-d51b766e51e9"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "9CWY7vlW",
+                  "username": "Nels_Bern2",
+                  "email": "Nels.Bernhard@gmail.com"
+                },
+                "subject": {
+                  "$ref": "27e164be-34d1-44e6-a365-f44321501234"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "9VJSDWyG",
+                  "username": "Shane_Haag",
+                  "email": "Tate99@yahoo.com"
+                },
+                "subject": {
+                  "$ref": "32fa5e20-f499-4ceb-861b-992160378c5f"
+                }
+              }
+            ],
+            "involvements": []
+          },
+          {
+            "details": {
+              "dispositionTypeCode": 14,
+              "virtualCurrencyAmount": "130291.57",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": 390874.71,
+              "receivingVirtualCurrencyAddresses": [
+                "1DCUbezxGYxk5i8u6NqJLtKpKn7fXu",
+                "1LkzttrSRxPrMfALq72sEWaFDT",
+                "337NMGhNWhMhNPqtFHNziuJZQbz",
+                "3XKkCeeh1LR4BD5vcUPVEbBkCSJimrahU3vzY",
+                "31wkmpv1Gde8VgbcrwSp1usZu1nvYL1rnbWKio"
+              ],
+              "beneficiaryIndicator": false,
+              "involvementIndicator": false
+            },
+            "beneficiaries": [],
+            "involvements": []
+          },
+          {
+            "details": {
+              "dispositionTypeCode": 9,
+              "virtualCurrencyAmount": "120935.80",
+              "virtualCurrencyTypeCode": "LIT",
+              "canadianExchangeRate": 362807.4,
+              "receivingVirtualCurrencyAddresses": [
+                "3W5AT2eh3fG3ZUt2Fna9P4NgNX",
+                "3xMh6vnNpdcoMZivLKmMYGa2zGSGQQbiwQkGt8L",
+                "1xM3LbjUpZiV7AS8Rpwj69HeTEuo",
+                "3q8kyFtVEZBs68pZneo4jYJ5VFoNrHTA3y9qdCgE",
+                "38YYG7HbUsPrZH7mW1XpoCoNrME2kQ41bKSRJ1fF"
+              ],
+              "beneficiaryIndicator": false,
+              "involvementIndicator": false
+            },
+            "beneficiaries": [],
+            "involvements": []
+          },
+          {
+            "details": {
+              "dispositionTypeCode": 20,
+              "virtualCurrencyAmount": "38685.87",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": 116057.62,
+              "receivingVirtualCurrencyAddresses": [
+                "3regjtdH5UXbkrnpa7XuFkpCVJtN",
+                "1unfQZiM5BnVp7GWYL2KeQWAtQBBNs",
+                "3oTjFzWVHD8no3jrZjGQ4m4j96w"
+              ],
+              "beneficiaryIndicator": false,
+              "involvementIndicator": false
+            },
+            "beneficiaries": [],
+            "involvements": []
+          }
+        ]
+      },
+      {
+        "details": {
+          "transactionUuid": "88a43544-ab11-49c5-9086-4123b4df442f",
+          "transactionDate": "2023-07-17T18:27:12.621Z",
+          "transactionMethodTypeCode": 2,
+          "locationReference": "MAIN"
+        },
+        "startingActions": [
+          {
+            "details": {
+              "virtualCurrencyAmount": "10728.19",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": "32184.57",
+              "sendingVirtualCurrencyAddresses": [
+                "3hjHDLs6ePy5WSqSMEPkLdc6eB1qJKAP"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "2718.02",
+              "virtualCurrencyTypeCode": "LIT",
+              "canadianExchangeRate": "8154.07",
+              "sendingVirtualCurrencyAddresses": [
+                "1WBiBLyTnm1SfTLbSiECn5nKVMF4HdjZ",
+                "36B7RSQ23bkB8X7A2bVTyu4x2Rut1",
+                "1hqgQrwiST3qkC3iEpmdu9CBo5r8PP34qrmyNf9"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "16785.86",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": "50357.57",
+              "sendingVirtualCurrencyAddresses": [
+                "3Kdyr11NiB1akpByoHTD5ZJZeQ76ovC",
+                "1DNSxeF28aSxC8JtsF5NaUjemW7BakU",
+                "1Y6PpQNQSVmJmg6cNftQtRdE72zc3iwS63G",
+                "3wiSsx7ZFSZHTvBeEfDyx19PeiYaUQpi3",
+                "1HCVnHV59F7cFA5MME6YqXD7cn4foLYFi"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          },
+          {
+            "details": {
+              "virtualCurrencyAmount": "15193.34",
+              "virtualCurrencyTypeCode": "DOGE",
+              "canadianExchangeRate": "45580.01",
+              "sendingVirtualCurrencyAddresses": [
+                "1tTxJ2K5JrxNBajcHkYVqA2u6wsPgpG8v14e",
+                "14XCw4QZe3t3mfDuBW4qfeFbLiPdy1AUkjhzpWNG",
+                "1af2p1wDJs39WMbEkEvo6EGgoPJS1BRu",
+                "3vmm6bWujw2Jj1d44wyWPbxwusWzfd2p",
+                "1o4fNtzRPWzWNASzzNS2pi8F1dEfWW9"
+              ],
+              "sourceOfVirtualCurrencyIndicator": false,
+              "conductorIndicator": false
+            },
+            "conductors": [],
+            "reportingEntity": {
+              "fullName": "Prosacco Inc Bank",
+              "principleBusiness": [
+                {
+                  "en": "Foreign exchange dealing",
+                  "fr": "Opérations de change"
+                }
+              ],
+              "regNumber": "M09985173",
+              "regStatus": {
+                "en": "Ceased",
+                "fr": "Cessée"
+              },
+              "details": []
+            }
+          }
+        ],
+        "completingActions": [
+          {
+            "details": {
+              "dispositionTypeCode": 18,
+              "virtualCurrencyAmount": "45425.41",
+              "virtualCurrencyTypeCode": "BTC",
+              "canadianExchangeRate": 136276.22,
+              "receivingVirtualCurrencyAddresses": [
+                "161XS5RYYaJUV17CexsnUFqm27S2QdcG1tLkCN"
+              ],
+              "beneficiaryIndicator": true,
+              "involvementIndicator": true
+            },
+            "beneficiaries": [
+              {
+                "details": {
+                  "clientNumber": "gElfoAzD",
+                  "username": "Jacques.Chirac",
+                  "email": "Sean66@yahoo.com"
+                },
+                "subject": {
+                  "$ref": "cdeee34c-ce2e-4306-aea4-78c469561938"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "DiMIVIoP",
+                  "username": "Mable_Kunze6",
+                  "email": "Jonathan50@gmail.com"
+                },
+                "subject": {
+                  "$ref": "78154812-6425-47e3-9a0b-d51b766e51e9"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "hynPz3L2",
+                  "username": "Shane_Haag",
+                  "email": "Tate99@yahoo.com"
+                },
+                "subject": {
+                  "$ref": "32fa5e20-f499-4ceb-861b-992160378c5f"
+                }
+              },
+              {
+                "details": {
+                  "clientNumber": "5v1tzXzk",
+                  "username": "Bergstrom-MacGyver49",
+                  "email": "Caroline32@gmail.com"
+                },
+                "subject": {
+                  "$ref": "8a9061f5-5a84-484c-bff4-5d34e5a8f571"
+                }
+              }
+            ],
+            "involvements": [
+              {
+                "details": {
+                  "identifyingNumber": "te3xbUOXfuZR"
+                },
+                "name": {
+                  "$ref": "37230af8-8966-493d-a982-562b2ae2a89a"
+                }
+              },
+              {
+                "details": {
+                  "identifyingNumber": "kpIFL6RjYDvB"
+                },
+                "name": {
+                  "$ref": "27e164be-34d1-44e6-a365-f44321501234"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

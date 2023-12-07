@@ -1,0 +1,1998 @@
+  {
+    "_disclaimer": "*** this document is completely fictional, created for demonstration use only",
+    "uuid": "46e215c8-77f0-4043-aed2-aa8092da6c41",
+    "reportingEntityRefNumber": "YYZLt5wgQv",
+    "reportDate": "2009-10-04T05:58:45.079Z",
+    "details": {
+      "transactionConducted": {
+        "uuid": "c173f9c7-be9f-49ec-837b-534f8c4d5e21",
+        "countryCode": "CA",
+        "provinceStateCode": "YT",
+        "streetAddress": "Ervin Views",
+        "buildingNumber": "933",
+        "city": "Port Camrenfield",
+        "postalZipCode": "K2T 8O2",
+        "district": "Berkshire",
+        "unitNumber": "Apt. 281"
+      },
+      "contact": {
+        "givenName": "Ward",
+        "surname": "Skiles",
+        "telephoneNumber": {
+          "phoneNumber": "549-980-4318",
+          "extension": "91024"
+        }
+      },
+      "entityTypes": "Bank"
+    },
+    "definitions": [
+      {
+        "type": "person",
+        "uuid": "a8a4a27f-0112-413f-8985-864123ce1ea3",
+        "surname": "Wiegand",
+        "givenName": "Blanca",
+        "clientNumber": 932139606075,
+        "emails": [],
+        "phoneNumbers": [
+          {
+            "phoneNumber": "1-240-856-9878",
+            "extension": null
+          }
+        ],
+        "identifications": [],
+        "occupations": [
+          {
+            "uuid": "c590d7b1-2982-4d69-ae5b-db5bc3f3afa1",
+            "employer": "Ziemann Inc",
+            "occupation": "Central Branding Representative",
+            "startDate": "2004-11-26T21:05:28.342Z",
+            "endDate": null,
+            "action": null
+          }
+        ],
+        "birthDate": "4/3/1961",
+        "residenceCountryCode": "CA",
+        "relationship": "Relative"
+      },
+      {
+        "type": "entity",
+        "uuid": "92bcc3d4-c08e-46ba-b352-cc33363833a0",
+        "legalName": "Marquardt, Heller and Gleason",
+        "typeOfBusiness": "reintermediate innovative blockchains",
+        "address": {
+          "uuid": "5fda0cf5-c35d-4f27-85e3-9e3b1443166a",
+          "countryCode": "CA",
+          "provinceStateCode": "ON",
+          "streetAddress": "King Street East",
+          "buildingNumber": "150",
+          "city": null,
+          "postalZipCode": null,
+          "district": null,
+          "unitNumber": null
+        },
+        "incorporationNumber": 27754314846824,
+        "countryOfIncorporation": "CA",
+        "provinceOfIncorporation": "YT",
+        "phoneNumbers": [
+          {
+            "phoneNumber": "1-686-362-6255",
+            "extension": "99181"
+          }
+        ],
+        "registrationIndicator": true,
+        "registrationNumber": 8548379562868787,
+        "identifications": [],
+        "authorizedPersons": [
+          {
+            "uuid": "4acc2a9e-b115-4936-9e9b-e2df29ee4031",
+            "givenName": "Kevin",
+            "surname": "Goyette"
+          },
+          {
+            "uuid": "054f9787-94ea-46bf-9fb3-7678a728e048",
+            "givenName": "Ruben",
+            "surname": "Powlowski"
+          },
+          {
+            "uuid": "d125959e-47fb-4d34-a463-1b4007afbec0",
+            "givenName": "Dolores",
+            "surname": "Reilly"
+          },
+          {
+            "uuid": "7e50be50-967c-430c-90de-d5e7e2e931fb",
+            "givenName": "Scott",
+            "surname": "Predovic"
+          },
+          {
+            "uuid": "d555c66a-b843-4fc0-883d-8c8574259080",
+            "givenName": "Mable",
+            "surname": "Miller"
+          }
+        ]
+      }
+    ],
+    "transactionIds": [
+      "bc84d337-539e-4444-b3df-8c0afd9ed687",
+      "b6fa4f13-8f9a-4542-969e-677efe746b6b",
+      "7ab60023-de57-4df6-805f-31b4abbd1be2",
+      "9876427a-37ae-4818-9a07-ec88b12f21a1",
+      "3d65ed6e-4ad6-4469-aecd-cf0c1ab01278",
+      "052bd373-ff7c-4683-966b-84ab13cb451b",
+      "4c7eb07e-e4c5-458f-9746-37fb5eadc695",
+      "27abb656-af7c-4bf9-9cbf-166b7d4ff2b9",
+      "440395a6-c5a7-4309-a84a-9de5b7005256"
+    ],
+    "transactions": [
+      {
+        "uuid": "bc84d337-539e-4444-b3df-8c0afd9ed687",
+        "transactionDateTime": "2009-03-16T11:00:19.107Z",
+        "transactionNumber": 1,
+        "startingAction": {
+          "uuid": "35fc35f8-edac-4dea-8a31-653488476073",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "45686.18",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Night deposit",
+            "transactionFundsDetails": "Incoming electronic funds transfer"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Revoked",
+              "fr": "Révoquée"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1211441",
+              "incorporationDate": "1996-12-02"
+            },
+            "registrationNumber": "M08617050",
+            "businessName": "Skiles and Sons Financial Services",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              "TAHERI EXCHANGE"
+            ],
+            "phone": "4164888822",
+            "websiteAddress": "www.taheriexchange.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "5775 YONGE STREET",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M2M 4J1",
+                "countryCode": "CA",
+                "locationId": "8d7811aa-2b4d-43b2-a7a1-284eb1b8428d"
+              }
+            ],
+            "agents": [],
+            "uuid": "769ab168-f6b8-48e3-92d4-8776c2d1b19a"
+          }
+        },
+        "completingAction": {
+          "uuid": "316b7d6d-4982-4be1-af18-abf53383d519",
+          "details": {
+            "dispositionOfFunds": "Issued cheque",
+            "amountOfDisposition": "127882.26",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 6339265340375040,
+            "accountInformation": {
+              "branchTransitNumber": 67302,
+              "accountNumber": 533226201087,
+              "accountTypeCode": "Personal",
+              "accountCurrencyCode": "USD",
+              "accountHolder": {
+                "$ref": "a8a4a27f-0112-413f-8985-864123ce1ea3"
+              },
+              "accountStatus": "Inactive"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "200970242",
+              "incorporationDate": "1976-11-24"
+            },
+            "registrationNumber": "M08070907",
+            "businessName": "Harber, Sipes and Walker Financial Services",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-11-26",
+            "operatingName": [
+              null
+            ],
+            "phone": "4032768938",
+            "websiteAddress": "www.albern.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              }
+            ],
+            "location": [
+              {
+                "address": "1615 CENTRE ST. N.W.",
+                "city": "CALGARY",
+                "provinceState": "AB",
+                "postalZipCode": "T2E2S2",
+                "countryCode": "CA",
+                "locationId": "abea2c5b-094e-4eec-a516-c6f793299bb6"
+              }
+            ],
+            "agents": [],
+            "uuid": "a128a285-2fcd-4edd-9d6b-939862639a7c"
+          }
+        }
+      },
+      {
+        "uuid": "b6fa4f13-8f9a-4542-969e-677efe746b6b",
+        "transactionDateTime": "2022-05-31T03:55:22.008Z",
+        "transactionNumber": 2,
+        "startingAction": {
+          "uuid": "d1ce8679-8fed-4260-be8b-bcd4fb74500d",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "42983.59",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Armoured car",
+            "transactionFundsDetails": "Negotiated securities"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Federal (Canada)",
+                "fr": "Fédérale (Canada)"
+              },
+              "incorporationNumber": "281751-9",
+              "incorporationDate": "1992-06-09"
+            },
+            "registrationNumber": "M08577837",
+            "businessName": "Sanford - Padberg Financial Services",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              null
+            ],
+            "phone": "4162221178",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "1 PROMENADE CIRCLE",
+                "city": "THORNHILL",
+                "provinceState": "ON",
+                "postalZipCode": "L4J 4P8",
+                "countryCode": "CA",
+                "locationId": "e48e209b-c0d7-4c90-9a29-bd27c63ca1ba"
+              }
+            ],
+            "agents": [],
+            "uuid": "4d2bd7ef-188f-4de7-843b-18e2e59d03e2"
+          }
+        },
+        "completingAction": {
+          "uuid": "88b5435d-45ac-4719-b07e-87b47132e64d",
+          "details": {
+            "dispositionOfFunds": "Cash",
+            "amountOfDisposition": "686440.84",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 7006060430753792,
+            "accountInformation": {
+              "branchTransitNumber": 86764,
+              "accountNumber": 58113484785,
+              "accountTypeCode": "Personal",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+              },
+              "accountStatus": "Active"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "registrationNumber": "M08404268",
+            "businessName": "Caisse Populaire Schuster - Swaniawski",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              null
+            ],
+            "phone": "6047189090",
+            "businessActivity": [
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "5483 GREENLEAF LN",
+                "city": "WEST VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V7W 1N5",
+                "countryCode": "CA",
+                "locationId": "92437eed-9a53-49c7-8476-018921fb2cbf"
+              }
+            ],
+            "agents": [],
+            "uuid": "c1a09234-343f-420b-ac1d-92399c26aa17"
+          }
+        }
+      },
+      {
+        "uuid": "7ab60023-de57-4df6-805f-31b4abbd1be2",
+        "transactionDateTime": "2014-12-10T20:55:33.604Z",
+        "transactionNumber": 3,
+        "startingAction": {
+          "uuid": "0064fa80-6868-4ca7-b04e-c5d7ceecc45d",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "46251.57",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Courier",
+            "transactionFundsDetails": "Negotiated securities"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1310921",
+              "incorporationDate": "1998-08-20"
+            },
+            "registrationNumber": "M08715440",
+            "businessName": "Green Inc Credit Union",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-04-09",
+            "operatingName": [
+              null
+            ],
+            "phone": "4165880749",
+            "websiteAddress": "www.brasilremittance.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "1458 DUNDAS STREET W",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M6J 1Y6",
+                "countryCode": "CA",
+                "locationId": "39ae5982-c50c-44a8-932f-93b2e2915c48"
+              }
+            ],
+            "agents": [],
+            "uuid": "a06c3aa8-c002-435d-bd55-e0e0dfd1311e"
+          }
+        },
+        "completingAction": {
+          "uuid": "a5e65237-14d6-4ab4-b777-44cb7ed1caf0",
+          "details": {
+            "dispositionOfFunds": "Issued cheque",
+            "amountOfDisposition": "497323.06",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 6118378756374528,
+            "accountInformation": null
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "registrationNumber": "M08404268",
+            "businessName": "Caisse Populaire Schuster - Swaniawski",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              null
+            ],
+            "phone": "6047189090",
+            "businessActivity": [
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "5483 GREENLEAF LN",
+                "city": "WEST VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V7W 1N5",
+                "countryCode": "CA",
+                "locationId": "92437eed-9a53-49c7-8476-018921fb2cbf"
+              }
+            ],
+            "agents": [],
+            "uuid": "c1a09234-343f-420b-ac1d-92399c26aa17"
+          }
+        }
+      },
+      {
+        "uuid": "9876427a-37ae-4818-9a07-ec88b12f21a1",
+        "transactionDateTime": "2012-05-04T22:04:46.747Z",
+        "transactionNumber": 4,
+        "startingAction": {
+          "uuid": "b3006097-7424-4648-8354-0e4a5f1d97d7",
+          "details": {
+            "nightDeposit": false,
+            "currencyAmount": "28238.44",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Mail deposit",
+            "transactionFundsDetails": "Withdrawal from account"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1555615",
+              "incorporationDate": "2002-12-31"
+            },
+            "registrationNumber": "M08434209",
+            "businessName": "Fahey and Sons Bank",
+            "registrationDate": "2008-07-09",
+            "expirationDate": "2022-08-01",
+            "operatingName": [
+              null
+            ],
+            "phone": "4162362032",
+            "websiteAddress": "www.meest.net",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "97 SIX POINT ROAD",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M8Z 2X3",
+                "countryCode": "CA",
+                "locationId": "2d15d718-8d83-407d-8e8d-b64c8e83e0a7"
+              },
+              {
+                "address": "8910 YONGE STREET, UNIT 5",
+                "city": "RICHMOND HILL",
+                "provinceState": "ON",
+                "postalZipCode": "L4C0L7",
+                "countryCode": "CA",
+                "locationId": "33f95d9f-bc6d-4a28-b90a-ffa1a7ef6bdd"
+              }
+            ],
+            "agents": [
+              {
+                "location": [
+                  {
+                    "address": "440 26TH AVE. N.E.",
+                    "city": "CALGARY",
+                    "provinceState": "AB",
+                    "postalZipCode": "T2E1Z3",
+                    "countryCode": "CA",
+                    "locationId": "b3c62817-671b-44ba-be9c-d20e9fd2e72d"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4032771105",
+                "uuid": "81789d63-0bc7-4c05-841b-39f048a69154"
+              },
+              {
+                "location": [
+                  {
+                    "address": "671 SE MARINE DRIVE",
+                    "city": "VANCOUVER",
+                    "provinceState": "BC",
+                    "postalZipCode": "V5X2T5",
+                    "countryCode": "CA",
+                    "locationId": "0afbc758-5bed-416c-909e-51529407a756"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "6043259543",
+                "uuid": "c6abcfd5-6a5f-4740-8f70-9819a3a9bd7c"
+              },
+              {
+                "location": [
+                  {
+                    "address": "952 MAIN ST.",
+                    "city": "WINNIPEG",
+                    "provinceState": "MB",
+                    "postalZipCode": "R2W3R4",
+                    "countryCode": "CA",
+                    "locationId": "56c0899f-2f80-4223-a243-bfaf13a5e094"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "2045822832",
+                "uuid": "6a2a7122-25da-4aa7-9a82-34d82320b02d"
+              },
+              {
+                "location": [
+                  {
+                    "address": "621 SELKIRK AVE.",
+                    "city": "WINNIPEG",
+                    "provinceState": "MB",
+                    "postalZipCode": "R2W2N2",
+                    "countryCode": "CA",
+                    "locationId": "f314f624-923c-4f36-b392-f5b0293acbc6"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "2045825939",
+                "uuid": "2b181d57-2a1e-4b69-9475-4c98a2191ee0"
+              },
+              {
+                "location": [
+                  {
+                    "address": "396 MCGREGOR STREET",
+                    "city": "WINNIPEG",
+                    "provinceState": "MB",
+                    "postalZipCode": "R2W4X5",
+                    "countryCode": "CA",
+                    "locationId": "15a7d358-b7c4-4142-957e-6227b2adb646"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "2045895871",
+                "uuid": "b233bc83-1863-44cc-8109-52159ce51b60"
+              },
+              {
+                "location": [
+                  {
+                    "address": "724 BARTON ST. E.",
+                    "city": "HAMILTON",
+                    "provinceState": "ON",
+                    "postalZipCode": "L8K2L6",
+                    "countryCode": "CA",
+                    "locationId": "363170fd-7e66-4138-8711-de96311977c0"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "9055499439",
+                "uuid": "64198438-00f3-406e-a304-bab5f4eeae62"
+              },
+              {
+                "location": [
+                  {
+                    "address": "2280 BLOOR ST. W.",
+                    "city": "TORONTO",
+                    "provinceState": "ON",
+                    "postalZipCode": "M6S1N9",
+                    "countryCode": "CA",
+                    "locationId": "5c7b213d-181c-4968-8049-2be80d735fbb"
+                  },
+                  {
+                    "address": "239 KENILWORTH AVENUE NORTH",
+                    "city": "HAMILTON",
+                    "provinceState": "ON",
+                    "postalZipCode": "L8H4S4",
+                    "countryCode": "CA",
+                    "locationId": "bc3dc955-e142-44d8-acb4-0a5dc7fc8d72"
+                  },
+                  {
+                    "address": "1891 RATHBURN ROAD EAST, UNIT 8",
+                    "city": "MISSISSAUGA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L4W3Z3",
+                    "countryCode": "CA",
+                    "locationId": "5706d4e5-379b-4e6a-a9ec-4ffa7c82a581"
+                  },
+                  {
+                    "address": "221 MILNER ANEVUE",
+                    "city": "SCARBOROUGH",
+                    "provinceState": "ON",
+                    "postalZipCode": "M1S4P4",
+                    "countryCode": "CA",
+                    "locationId": "883d370e-f668-4c6d-8630-8456d473c905"
+                  },
+                  {
+                    "address": "913 CARLING AVENUE",
+                    "city": "OTTAWA",
+                    "provinceState": "ON",
+                    "postalZipCode": "K1Y4E3",
+                    "countryCode": "CA",
+                    "locationId": "0ea05339-59fa-462f-acb1-8d980a330cca"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4167636883",
+                "uuid": "5c246768-2b65-4111-b2c0-177a8a135dad"
+              },
+              {
+                "location": [
+                  {
+                    "address": "1037 RUNNINGBROOK RD.",
+                    "city": "MISSISSAUGA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L4Y2T1",
+                    "countryCode": "CA",
+                    "locationId": "7aa625ba-0cd5-4159-9c16-9b6c1327dbe6"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "9058979493",
+                "uuid": "43e8a380-c74b-44d0-847e-4af33e390850"
+              },
+              {
+                "location": [
+                  {
+                    "address": "121 RUNNYMEDE RD.",
+                    "city": "TORONTO",
+                    "provinceState": "ON",
+                    "postalZipCode": "M6S2Y3",
+                    "countryCode": "CA",
+                    "locationId": "2696dc15-25eb-4244-9019-4bd0be8042e1"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4167619105",
+                "uuid": "ae553fd2-7eac-47c5-bc22-b03c99bc0c34"
+              },
+              {
+                "location": [
+                  {
+                    "address": "254 TORONTO AVE.",
+                    "city": "OSHAWA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L1H3C1",
+                    "countryCode": "CA",
+                    "locationId": "a261add3-df28-4c22-bf6f-9e7f14deac96"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "9057250537",
+                "uuid": "048d8ebb-8d15-4c2d-947e-49e30787d4fb"
+              },
+              {
+                "location": [
+                  {
+                    "address": "1750 STEELES AVE. W., UNIT 12",
+                    "city": "CONCORD",
+                    "provinceState": "ON",
+                    "postalZipCode": "L4K2L7",
+                    "countryCode": "CA",
+                    "locationId": "b50e3705-e240-4c3f-98b1-53077c867b78"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "9054823142",
+                "uuid": "971dd426-92c5-4bd9-b56f-380dec635395"
+              },
+              {
+                "location": [
+                  {
+                    "address": "247 ADELAIDE ST. S. UNIT 3",
+                    "city": "LONDON",
+                    "provinceState": "ON",
+                    "postalZipCode": "N5Z3K7",
+                    "countryCode": "CA",
+                    "locationId": "8cc4bef3-cc8e-45d3-ab97-1043235c090e"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "5196494658",
+                "uuid": "7e31a04a-2f49-471e-847f-472bef453fff"
+              },
+              {
+                "location": [
+                  {
+                    "address": "382 GLENDALE AVE.",
+                    "city": "OSHAWA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L1H3C3",
+                    "countryCode": "CA",
+                    "locationId": "c9ee6627-3c2d-42f5-8562-d5be17bfe73e"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "9055790339",
+                "uuid": "6bdb2f87-8da2-43e5-bb78-2f01c8680949"
+              },
+              {
+                "location": [
+                  {
+                    "address": "2540 BELANGER ST. E.",
+                    "city": "MONTREAL",
+                    "provinceState": "QC",
+                    "postalZipCode": "H1Y1A1",
+                    "countryCode": "CA",
+                    "locationId": "b33dfc9e-ce34-4833-830d-2e9ec02470ed"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "5145934715",
+                "uuid": "ffaf401e-286b-4ad2-8395-87463c756d81"
+              },
+              {
+                "location": [
+                  {
+                    "address": "6940 FISHER ROAD SE, UNIT 100",
+                    "city": "CALGARY",
+                    "provinceState": "AB",
+                    "postalZipCode": "T2H0W3",
+                    "countryCode": "CA",
+                    "locationId": "b8a66395-8da2-41b6-9b01-6c68bd1e6680"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4034574622",
+                "uuid": "0c6ad9b7-9442-42c0-bf59-5b3a6446720d"
+              },
+              {
+                "location": [
+                  {
+                    "address": "250 GREENBANK ROAD, UNIT 19",
+                    "city": "OTTAWA",
+                    "provinceState": "ON",
+                    "postalZipCode": "K2H8X4",
+                    "countryCode": "CA",
+                    "locationId": "c7fffb97-f242-4d9e-b83e-eb834da713c1"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "6137217601",
+                "uuid": "280fecfe-adb1-4864-9376-d2274d5eef03"
+              },
+              {
+                "location": [
+                  {
+                    "address": "10834-97 STREET",
+                    "city": "EDMONTON",
+                    "provinceState": "AB",
+                    "postalZipCode": "T5H2M3",
+                    "countryCode": "CA",
+                    "locationId": "52862b98-6925-47f6-b4e4-d439239f0b82"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "7804241777",
+                "uuid": "40ea355a-e7f8-4590-87fd-ce7f77f4fcf3"
+              },
+              {
+                "location": [
+                  {
+                    "address": "1301 IDYLWYLD DRIVE, UNIT 30",
+                    "city": "SASKATOON",
+                    "provinceState": "SK",
+                    "postalZipCode": "S7L1A3",
+                    "countryCode": "CA",
+                    "locationId": "cdf36646-3a63-45a7-b5db-052798cd66bc"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "3063733646",
+                "uuid": "e58632bc-efce-418a-a533-17c6941b1373"
+              },
+              {
+                "location": [
+                  {
+                    "address": "1737 ST. JOHN STREET",
+                    "city": "REGINA",
+                    "provinceState": "SK",
+                    "postalZipCode": "S4P1R8",
+                    "countryCode": "CA",
+                    "locationId": "487f0208-dafd-4727-8084-9cef5608f656"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "3062099530",
+                "uuid": "9b7a83f7-d1bb-4a8b-8253-8850f87bf728"
+              },
+              {
+                "location": [
+                  {
+                    "address": "5885 BATHURST STREET",
+                    "city": "TORONTO",
+                    "provinceState": "ON",
+                    "postalZipCode": "M2R1Y7",
+                    "countryCode": "CA",
+                    "locationId": "9851899f-5b0a-46af-9232-c2332f7fa610"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4162269151",
+                "uuid": "f266aad3-97c6-413f-a7b6-611c168aacb9"
+              },
+              {
+                "location": [
+                  {
+                    "address": "121 RUNNYMEDE ROAD",
+                    "city": "TORONTO",
+                    "provinceState": "ON",
+                    "postalZipCode": "M6S2Y4",
+                    "countryCode": "CA",
+                    "locationId": "dc3134f4-c821-4cf1-afaf-7739ffd960b8"
+                  },
+                  {
+                    "address": "4400 DUFFERIN STREET",
+                    "city": "NORTH YORK",
+                    "provinceState": "ON",
+                    "postalZipCode": "M3H6A8",
+                    "countryCode": "CA",
+                    "locationId": "7f86b607-f36a-4491-9113-72bd8318de77"
+                  },
+                  {
+                    "address": "685 QUEENSTON ROAD",
+                    "city": "HAMILTON",
+                    "provinceState": "ON",
+                    "postalZipCode": "L8G1A1",
+                    "countryCode": "CA",
+                    "locationId": "7b373517-014b-43fb-94e1-d2cb65c29e4e"
+                  },
+                  {
+                    "address": "3643 DIXIE ROAD, UNIT 1",
+                    "city": "MISSISSAUGA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L4Y2B3",
+                    "countryCode": "CA",
+                    "locationId": "231b6df3-08dc-4ed2-add1-347c1db0913a"
+                  },
+                  {
+                    "address": "390 STEELES AVE W, UNIT 18",
+                    "city": "THORNHILL",
+                    "provinceState": "ON",
+                    "postalZipCode": "L4J6X2",
+                    "countryCode": "CA",
+                    "locationId": "8690522e-8770-4ae2-9401-c99299cb9adf"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4167677782",
+                "uuid": "dad474fb-0c26-42bb-a5cd-010a6d28d289"
+              },
+              {
+                "location": [
+                  {
+                    "address": "3015 WINSTON CHURCHILL BLVD, UNIT 5",
+                    "city": "MISSISSAUGA",
+                    "provinceState": "ON",
+                    "postalZipCode": "L5L2V8",
+                    "countryCode": "CA",
+                    "locationId": "09fe84ca-fae4-4276-8e8c-27b19e5d3987"
+                  }
+                ],
+                "agentBusinessActivity": [
+                  {
+                    "en": "Foreign exchange dealing",
+                    "fr": "Opérations de change"
+                  },
+                  {
+                    "en": "Money transferring",
+                    "fr": "Transfert de fonds"
+                  }
+                ],
+                "phone": "4162365890",
+                "uuid": "908d5805-3562-4343-a1f4-ee6509bb959c"
+              }
+            ],
+            "uuid": "36b80d96-0892-4c4d-8763-892d64d688b9"
+          }
+        },
+        "completingAction": {
+          "uuid": "fa035786-62b2-492a-b00d-42d981fe3b54",
+          "details": {
+            "dispositionOfFunds": "Purchase of prepaid payment product/card",
+            "amountOfDisposition": "882788.32",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 5638927190851584,
+            "accountInformation": {
+              "branchTransitNumber": 86656,
+              "accountNumber": 461290075054,
+              "accountTypeCode": "Business",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "a8a4a27f-0112-413f-8985-864123ce1ea3"
+              },
+              "accountStatus": "Inactive"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1556983",
+              "incorporationDate": "2003-01-13"
+            },
+            "registrationNumber": "M08825969",
+            "businessName": "Runolfsdottir Group Credit Union",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-09-03",
+            "operatingName": [
+              "DOLLAR EXCHANGE"
+            ],
+            "phone": "4164657800",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "1100A DANFORTH AVENUE",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M4J1M3",
+                "countryCode": "CA",
+                "locationId": "fd9b4497-911a-455d-8fda-89ee8c4a67cf"
+              }
+            ],
+            "agents": [],
+            "uuid": "ca5d103f-717d-4a53-b5d8-d5da24eb4bde"
+          }
+        }
+      },
+      {
+        "uuid": "3d65ed6e-4ad6-4469-aecd-cf0c1ab01278",
+        "transactionDateTime": "2016-12-10T19:50:47.570Z",
+        "transactionNumber": 5,
+        "startingAction": {
+          "uuid": "f9543426-82cf-4ca4-a101-4235d08846fc",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "45621.58",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Quick drop",
+            "transactionFundsDetails": "Other"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "BC0601664",
+              "incorporationDate": "2000-02-18"
+            },
+            "registrationNumber": "M08720167",
+            "businessName": "Bode Group Financial Services",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-11-19",
+            "operatingName": [
+              null
+            ],
+            "phone": "6042738100",
+            "websiteAddress": "www.kingmark.ca",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "1689-4500 KINGSWAY",
+                "city": "BURNABY",
+                "provinceState": "BC",
+                "postalZipCode": "V5H2A9",
+                "countryCode": "CA",
+                "locationId": "a33e4ec8-d830-4f02-ac13-1956301e9ac9"
+              },
+              {
+                "address": "1025-3700 NO. 3 ROAD, YAOHAN CENTRE",
+                "city": "RICHMOND",
+                "provinceState": "BC",
+                "postalZipCode": "V6X3X2",
+                "countryCode": "CA",
+                "locationId": "b5f391b0-32cc-4570-a0dd-e988240ca94a"
+              },
+              {
+                "address": "610 W BROADWAY",
+                "city": "VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V5Z1G1",
+                "countryCode": "CA",
+                "locationId": "7463810e-02a4-4931-a53b-78809c92bf1e"
+              }
+            ],
+            "agents": [],
+            "uuid": "8594aa3a-f98e-499f-9820-d79fad66f000"
+          }
+        },
+        "completingAction": {
+          "uuid": "681cd9ae-8570-4a0b-b6d3-b5f3d98b57ed",
+          "details": {
+            "dispositionOfFunds": "Outgoing domestic funds transfer",
+            "amountOfDisposition": "550383.34",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 4954489186418688,
+            "accountInformation": {
+              "branchTransitNumber": 14574,
+              "accountNumber": 551078734980,
+              "accountTypeCode": "Personal",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+              },
+              "accountStatus": "Inactive"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "207404773",
+              "incorporationDate": "1997-05-16"
+            },
+            "registrationNumber": "M08265912",
+            "businessName": "Caisse Populaire Lang - Fritsch",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-02-25",
+            "operatingName": [
+              null
+            ],
+            "phone": "2503807888",
+            "websiteAddress": "www.currencywholesale.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "106-1208 WHARF STREET",
+                "city": "VICTORIA",
+                "provinceState": "BC",
+                "postalZipCode": "V8W 3B9",
+                "countryCode": "CA",
+                "locationId": "7d678625-3048-4ef8-a305-b416a765112c"
+              },
+              {
+                "address": "1150 STATION ST.",
+                "city": "VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V6A4C7",
+                "countryCode": "CA",
+                "locationId": "80cd8456-c56b-49f2-aab1-3b99e447e0e0"
+              },
+              {
+                "address": "185 DALLAS RD",
+                "city": "VICTORIA",
+                "provinceState": "BC",
+                "postalZipCode": "V8V1A1",
+                "countryCode": "CA",
+                "locationId": "2c36dfe2-ffbb-4721-841b-43d2ef60450b"
+              }
+            ],
+            "agents": [],
+            "uuid": "c362ea5c-d8c6-4912-88e9-3ddaf1b80c09"
+          }
+        }
+      },
+      {
+        "uuid": "052bd373-ff7c-4683-966b-84ab13cb451b",
+        "transactionDateTime": "2014-12-10T23:17:33.016Z",
+        "transactionNumber": 6,
+        "startingAction": {
+          "uuid": "ccc9a3f5-1b45-4523-b8f0-5ecdb0832ba5",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "41992.04",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "In-branch/Office/Store",
+            "transactionFundsDetails": "Redeemed casino chips"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1475483",
+              "incorporationDate": "2001-05-09"
+            },
+            "registrationNumber": "M08539027",
+            "businessName": "Bank of Emmerich, Hermiston and Strosin",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2023-01-06",
+            "operatingName": [
+              null
+            ],
+            "phone": "4162277799",
+            "websiteAddress": "InterchangeFinancial.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "5617 YONGE STREET",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M2M3S9",
+                "countryCode": "CA",
+                "locationId": "71c242cf-ea5d-490f-954d-97f76906c22b"
+              },
+              {
+                "address": "3621 UNIT 101 HYW 7 EAST",
+                "city": "MARKHAM",
+                "provinceState": "ON",
+                "postalZipCode": "L3R 0G6",
+                "countryCode": "CA",
+                "locationId": "cdb353bb-183d-4512-be1b-cf50cdd14bc4"
+              },
+              {
+                "address": "20 DUNDAS STREET WEST",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M5G2C2",
+                "countryCode": "CA",
+                "locationId": "0c544d1d-4900-4114-bf10-eec377acee65"
+              },
+              {
+                "address": "1 YONGE STREET, SUITE 109",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M5E1E5",
+                "countryCode": "CA",
+                "locationId": "7f5cfa52-1aff-4204-acc6-20e756468902"
+              },
+              {
+                "address": "10545 BRAMALEA ROAD, BUILDING H, UNIT 5",
+                "city": "BRAMPTON",
+                "provinceState": "ON",
+                "postalZipCode": "L6R3P4",
+                "countryCode": "CA",
+                "locationId": "ba2ff7d5-fef8-4798-ae4e-57b6fade0f1b"
+              }
+            ],
+            "agents": [],
+            "uuid": "ec24df21-757e-4597-8ec2-093551fed4aa"
+          }
+        },
+        "completingAction": {
+          "uuid": "01267673-3282-41ed-a55b-066d0cf8b6da",
+          "details": {
+            "dispositionOfFunds": "Outgoing domestic funds transfer",
+            "amountOfDisposition": "532216.88",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 375409854119936,
+            "accountInformation": {
+              "branchTransitNumber": 15697,
+              "accountNumber": 544872158219,
+              "accountTypeCode": "Business",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+              },
+              "accountStatus": "Inactive"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "BC0602599",
+              "incorporationDate": "2000-03-03"
+            },
+            "registrationNumber": "M08170237",
+            "businessName": "Bank of Waters and Sons",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-05-30",
+            "operatingName": [
+              null
+            ],
+            "phone": "6046812062",
+            "websiteAddress": "www.finexforex.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "1135 WEST PENDER STREET",
+                "city": "VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V6E 2P4",
+                "countryCode": "CA",
+                "locationId": "ce78ab86-ecfa-4f7f-85ce-4b8180c7cf1d"
+              }
+            ],
+            "agents": [],
+            "uuid": "829c39cd-f266-4419-84e1-496221897d86"
+          }
+        }
+      },
+      {
+        "uuid": "4c7eb07e-e4c5-458f-9746-37fb5eadc695",
+        "transactionDateTime": "2019-09-30T01:24:38.165Z",
+        "transactionNumber": 7,
+        "startingAction": {
+          "uuid": "43a3fb91-0920-4ef9-b1f3-91234db9af78",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "33454.70",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Automated banking machine",
+            "transactionFundsDetails": "Negotiated money order"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "200716728",
+              "incorporationDate": "1974-03-22"
+            },
+            "registrationNumber": "M08408628",
+            "businessName": "Breitenberg - Lueilwitz Credit Union",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              "AMA TRAVEL"
+            ],
+            "phone": "7804305701",
+            "websiteAddress": "www.ama.ab.ca",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "10310-39A AVENUE, 4TH FLOOR",
+                "city": "EDMONTON",
+                "provinceState": "AB",
+                "postalZipCode": "T6J6R7",
+                "countryCode": "CA",
+                "locationId": "d6af063c-f7cb-428f-a487-5430e58379c5"
+              }
+            ],
+            "agents": [],
+            "uuid": "756fa0cb-8616-4359-9081-89dd5b33b379"
+          }
+        },
+        "completingAction": {
+          "uuid": "ea62018b-bf8d-43ca-a18a-c31541ae0e3d",
+          "details": {
+            "dispositionOfFunds": "Cash",
+            "amountOfDisposition": "493528.15",
+            "dispositionCurrencyCode": "USD",
+            "additionalFundInfo": 7262430786748416,
+            "accountInformation": {
+              "branchTransitNumber": 56720,
+              "accountNumber": 408464218208,
+              "accountTypeCode": "Trust",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+              },
+              "accountStatus": "Active"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "1310921",
+              "incorporationDate": "1998-08-20"
+            },
+            "registrationNumber": "M08715440",
+            "businessName": "Green Inc Credit Union",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-04-09",
+            "operatingName": [
+              null
+            ],
+            "phone": "4165880749",
+            "websiteAddress": "www.brasilremittance.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "1458 DUNDAS STREET W",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M6J 1Y6",
+                "countryCode": "CA",
+                "locationId": "39ae5982-c50c-44a8-932f-93b2e2915c48"
+              }
+            ],
+            "agents": [],
+            "uuid": "a06c3aa8-c002-435d-bd55-e0e0dfd1311e"
+          }
+        }
+      },
+      {
+        "uuid": "27abb656-af7c-4bf9-9cbf-166b7d4ff2b9",
+        "transactionDateTime": "2017-08-04T13:03:50.189Z",
+        "transactionNumber": 8,
+        "startingAction": {
+          "uuid": "8238d7b1-94d4-4b70-a462-5099ca35e470",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "13455.91",
+            "currencyTypeCode": "CAD",
+            "transactionConducted": "Night deposit",
+            "transactionFundsDetails": "Incoming electronic funds transfer"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Federal (Canada)",
+                "fr": "Fédérale (Canada)"
+              },
+              "incorporationNumber": "317125-6",
+              "incorporationDate": "1995-08-03"
+            },
+            "registrationNumber": "M08381918",
+            "businessName": "Johns, Emmerich and Hickle Bank",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              null
+            ],
+            "phone": "5148688888",
+            "websiteAddress": "www.denarius.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "1179 DE LA MONTAGNE, SUITE 101",
+                "city": "MONTREAL",
+                "provinceState": "QC",
+                "postalZipCode": "H3G1Z2",
+                "countryCode": "CA",
+                "locationId": "5a37efb7-293a-47b6-996f-8b8183cc5105"
+              }
+            ],
+            "agents": [],
+            "uuid": "e4c03ff7-c2f7-4e70-8729-1a0b96bef1a8"
+          }
+        },
+        "completingAction": {
+          "uuid": "3c3fb964-7ff7-449e-b41b-701b0d0e589b",
+          "details": {
+            "dispositionOfFunds": "Exchange to fiat currency",
+            "amountOfDisposition": "376645.33",
+            "dispositionCurrencyCode": "CAD",
+            "additionalFundInfo": 8490648636227584,
+            "accountInformation": {
+              "branchTransitNumber": 88764,
+              "accountNumber": 909239523691,
+              "accountTypeCode": "Business",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+              },
+              "accountStatus": "Inactive"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Ceased",
+              "fr": "Cessée"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Federal (Canada)",
+                "fr": "Fédérale (Canada)"
+              },
+              "incorporationNumber": "Crown Corp",
+              "incorporationDate": "2002-04-25"
+            },
+            "registrationNumber": "M08116918",
+            "businessName": "Bank of Mante - Jaskolski",
+            "registrationDate": "2008-06-23",
+            "operatingName": [
+              "BLUE WATER BRIDGE AUTHORITY CURRENCY EXCHANGE"
+            ],
+            "phone": "5193373703",
+            "websiteAddress": "www.bwbc.gc.ca",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              },
+              {
+                "en": "Issuing or redeeming money orders",
+                "fr": "Émission ou rachat de mandats"
+              }
+            ],
+            "location": [
+              {
+                "address": "1555 VENETIAN BLVD",
+                "city": "POINT EDWARD",
+                "provinceState": "ON",
+                "postalZipCode": "N7T 0A9",
+                "countryCode": "CA",
+                "locationId": "c1356307-c070-4a10-a140-8b0c55b48939"
+              }
+            ],
+            "agents": [],
+            "uuid": "bd937ae9-c0fa-46b2-b6f6-7aa24459ed37"
+          }
+        }
+      },
+      {
+        "uuid": "440395a6-c5a7-4309-a84a-9de5b7005256",
+        "transactionDateTime": "2012-01-08T06:14:33.590Z",
+        "transactionNumber": 9,
+        "startingAction": {
+          "uuid": "ff754908-fa8d-4600-84c9-7d4e856064e0",
+          "details": {
+            "nightDeposit": true,
+            "currencyAmount": "23992.24",
+            "currencyTypeCode": "USD",
+            "transactionConducted": "Courier",
+            "transactionFundsDetails": "Redeemed casino chips"
+          },
+          "conductor": {
+            "details": {
+              "onBehalfOfIndicator": true
+            },
+            "subject": {
+              "$ref": "92bcc3d4-c08e-46ba-b352-cc33363833a0"
+            },
+            "onBehalfOf": null
+          },
+          "reportingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Provincial or territorial (Canada)",
+                "fr": "Provinciale ou territoriale (Canada)"
+              },
+              "incorporationNumber": "207404773",
+              "incorporationDate": "1997-05-16"
+            },
+            "registrationNumber": "M08265912",
+            "businessName": "Caisse Populaire Lang - Fritsch",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-02-25",
+            "operatingName": [
+              null
+            ],
+            "phone": "2503807888",
+            "websiteAddress": "www.currencywholesale.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "106-1208 WHARF STREET",
+                "city": "VICTORIA",
+                "provinceState": "BC",
+                "postalZipCode": "V8W 3B9",
+                "countryCode": "CA",
+                "locationId": "7d678625-3048-4ef8-a305-b416a765112c"
+              },
+              {
+                "address": "1150 STATION ST.",
+                "city": "VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V6A4C7",
+                "countryCode": "CA",
+                "locationId": "80cd8456-c56b-49f2-aab1-3b99e447e0e0"
+              },
+              {
+                "address": "185 DALLAS RD",
+                "city": "VICTORIA",
+                "provinceState": "BC",
+                "postalZipCode": "V8V1A1",
+                "countryCode": "CA",
+                "locationId": "2c36dfe2-ffbb-4721-841b-43d2ef60450b"
+              }
+            ],
+            "agents": [],
+            "uuid": "c362ea5c-d8c6-4912-88e9-3ddaf1b80c09"
+          }
+        },
+        "completingAction": {
+          "uuid": "64deb967-6c2d-4a9e-bd74-55cef1a5a881",
+          "details": {
+            "dispositionOfFunds": "Purchase of prepaid payment product/card",
+            "amountOfDisposition": "670252.70",
+            "dispositionCurrencyCode": "USD",
+            "additionalFundInfo": 5548272508731392,
+            "accountInformation": {
+              "branchTransitNumber": 99656,
+              "accountNumber": 295005869699,
+              "accountTypeCode": "Trust",
+              "accountCurrencyCode": "CAD",
+              "accountHolder": {
+                "$ref": "a8a4a27f-0112-413f-8985-864123ce1ea3"
+              },
+              "accountStatus": "Dormant"
+            }
+          },
+          "receivingEntity": {
+            "registrationStatus": {
+              "en": "Registered",
+              "fr": "Inscrite"
+            },
+            "business": {
+              "incorporationJurisdiction": {
+                "en": "Federal (Canada)",
+                "fr": "Fédérale (Canada)"
+              },
+              "incorporationNumber": "9607005",
+              "incorporationDate": "2016-05-10"
+            },
+            "registrationNumber": "M08472543",
+            "businessName": "Caisse Populaire Christiansen - Smitham",
+            "registrationDate": "2008-06-23",
+            "expirationDate": "2022-05-21",
+            "operatingName": [
+              null
+            ],
+            "phone": "4163669000",
+            "websiteAddress": "www.bendixfx.com",
+            "businessActivity": [
+              {
+                "en": "Foreign exchange dealing",
+                "fr": "Opérations de change"
+              },
+              {
+                "en": "Money transferring",
+                "fr": "Transfert de fonds"
+              }
+            ],
+            "location": [
+              {
+                "address": "300-360 BAY STREET",
+                "city": "TORONTO",
+                "provinceState": "ON",
+                "postalZipCode": "M5H2V6",
+                "countryCode": "CA",
+                "locationId": "a5ed8aaa-3907-4e34-852b-1e95fd4637d0"
+              },
+              {
+                "address": "208-409 GRANVILLE STREET",
+                "city": "VANCOUVER",
+                "provinceState": "BC",
+                "postalZipCode": "V6C1T2",
+                "countryCode": "CA",
+                "locationId": "962702f2-6cff-4b5e-8d3e-4f57352cc18b"
+              },
+              {
+                "address": "630 SHERBROOKE STREET WEST, SUITE 930",
+                "city": "MONTREAL",
+                "provinceState": "QC",
+                "postalZipCode": "H3A1E4",
+                "countryCode": "CA",
+                "locationId": "05682768-63c1-48fc-bea6-1743d7d19e2b"
+              },
+              {
+                "address": "5611-152A AVENUE NW",
+                "city": "EDMONTON",
+                "provinceState": "AB",
+                "postalZipCode": "T5A4X7",
+                "countryCode": "CA",
+                "locationId": "354701c7-157b-4384-aa9e-114ad004bc87"
+              }
+            ],
+            "agents": [],
+            "uuid": "5acfd29f-d58e-48bc-8ee0-8498188d525d"
+          }
+        }
+      }
+    ],
+    "suspiciousActivityDesc": "Bank of Emmerich, Hermiston and Strosin suspects that funds relating to the smuggling of alcohol have been laundered via a cash management account held in the name of Wiegand & CO PTY LTD. B. Wiegand (client 932139606075) is the sole director and shareholder of Wiegand & CO PTY LTD. Since the account was opened by Blanca Wiegand, the following transactions have been recorded\n2009-16-3 @ 7:0:19 - $45686.18 from a bank account held by Wiegand & Co.\n2022-30-5 @ 23:55:22 - $42983.59 from a bank account held by Wiegand & Co.\n2014-10-12 @ 15:55:33 - $46251.57 from a bank account held by Wiegand & Co.\n2012-4-5 @ 18:4:46 - $28238.44 from a bank account held by Wiegand & Co.\n2016-10-12 @ 14:50:47 - $45621.58 from a bank account held by Wiegand & Co.\n2014-10-12 @ 18:17:33 - $41992.04 from a bank account held by Wiegand & Co.\n2019-29-9 @ 21:24:38 - $33454.7 from a bank account held by Wiegand & Co.\n2017-4-8 @ 9:3:50 - $13455.91 from a bank account held by Wiegand & Co.\n2012-8-1 @ 1:14:33 - $23992.24 from a bank account held by Wiegand & Co.\n"
+  }
