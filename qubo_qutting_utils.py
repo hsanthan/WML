@@ -532,7 +532,7 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
     '''
 
     cols = ['n', 'p', 'seed', 'Graph File', 'qaoa Ansatz File',
-            'Ising Hamiltonian Runtime', 'Ansatz Building Runtime', 'qubitOp']
+            'Ising Hamiltonian Runtime', 'Ansatz Building Runtime', 'QP']
 
     df = pd.DataFrame(columns=cols)
     # df['Graph Prop'] = df['Graph Prop'].astype('object')
@@ -584,7 +584,7 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
                     qaoa = QAOAAnsatz(cost_operator=qubitOp, reps=1)
                     qaoa_observable_pat = '[A-Z]+'
                     observables = (PauliList(re.findall(r"'([A-Z]+)'", str(qubitOp))))
-                    # observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
+                    #observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
                     qaoa_time = time.time() - start_time
 
                     qa = qaoa.decompose().decompose().decompose().decompose()
@@ -601,7 +601,7 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
                     df.loc[i, 'seed'] = seed
                     df.loc[i, 'Graph File'] = graph_filename
                     df.loc[i, 'qaoa Ansatz File'] = qc_file
-                    df.loc[i, 'qubitOp'] = str(qubitOp)
+                    df.loc[i, 'QP'] = str(qp)
                     df.loc[i, 'Ising Hamiltonian Runtime'] = qubo_conversion_time
                     df.loc[i, 'Ansatz Building Runtime'] = qaoa_time
 
@@ -664,7 +664,12 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                         q)
 
                     qc_file = row[4]
-                    qubitOp = row[7]
+                    #qubitOp = row[7]
+                    qp = row[7]
+                    qp2qubo = QuadraticProgramToQubo()
+                    qubo = qp2qubo.convert(qp)
+                    qubitOp, offset = qubo.to_ising()
+
                     # read the file with qaoa ansatz object
                     st = time.time()
 
@@ -678,14 +683,15 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                     reload_time = time.time() - st
                     print(f'qaoa ansatz reload time: {reload_time}')
                     qaoa_observable_pat = '[A-Z]+'
-                    observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
+                    #observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
+                    observables = (PauliList(re.findall(r"'([A-Z]+)'", str(qubitOp))))
                     # print(qubitOp)
                     print(f'\n\nCKT Cutting for size {n}, n*p {p}, seed {seed}')
                     # Get subgraphs' properties
                     for pm_ in partition_methods:
                         try:
                             print(pm_)
-                            print('errored out?')
+                            #print('errored out?')
                             i += 1
                             pm_part_lbl, partitioning_runtime = partitioning2(max_qubit_cnt,
                                                                               qsubgraph_prop,
