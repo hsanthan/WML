@@ -705,7 +705,6 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                     for pm_ in partition_methods:
                         try:
                             print(pm_)
-                            print('errored out?')
                             i += 1
                             pm_part_lbl, partitioning_runtime = partitioning2(max_qubit_cnt,
                                                                               qsubgraph_prop,
