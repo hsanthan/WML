@@ -531,8 +531,8 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
     ## Generate QAOA ansatz for QUBO and assign its observables
     '''
 
-    cols = ['n', 'p', 'seed', 'Graph File', 'qaoa Ansatz File',
-            'Ising Hamiltonian Runtime', 'Ansatz Building Runtime', 'QP']
+    cols = ['n', 'p', 'seed','File Path','Graph File','qaoa Ansatz File',
+            'Ising Hamiltonian Runtime', 'Ansatz Building Runtime']
 
     df = pd.DataFrame(columns=cols)
     # df['Graph Prop'] = df['Graph Prop'].astype('object')
@@ -548,7 +548,7 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
                     if i == 0:
                         seed1 = seed
                     i += 1
-                    # Create sparse matrix for a given size and density
+                    ## Create sparse matrix for a given size and density
                     # record the matrix creation time
                     start_time = time.time()
                     if 'random_sparse' in matrix_type:
@@ -562,8 +562,9 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
                     matrix_creation_time = time.time() - start_time
 
                     # save graph object to file
-                    graph_filename = os.path.join(qaoa_graph_obj_dir, f'{n}_{p}_{seed}_graph.pickle')
-                    pickle.dump(q, open(graph_filename, 'wb'))
+                    # graph_filename=os.path.join(qaoa_graph_obj_dir,f'{n}_{p}_{seed}_graph.pickle')
+                    graph_filename = f'{n}_{p}_{seed}_graph.pickle'
+                    pickle.dump(q, open(os.path.join(qaoa_graph_obj_dir, graph_filename), 'wb'))
 
                     # Get subgraphs' properties
                     # qnum_sub_graphs, largest_subgraph_size, qsubgraph_prop, max_subgraph_nodes = get_subgraph_properties1(q)
@@ -572,38 +573,47 @@ def ckt_build_qaoa(mat_size, n_times_p, random_seeds, matrix_type):
                     # Timing for QUBO conversion
                     start_time = time.time()
                     qp = create_qp_from_qmatrix(M)
+                    # here
                     qp2qubo = QuadraticProgramToQubo()
                     qubo = qp2qubo.convert(qp)
                     qubitOp, offset = qubo.to_ising()
                     qubo_conversion_time = time.time() - start_time
-                    # print(qubitOp)
+                    print(qubitOp)
 
                     ## Generate and save QAOA ansatz for QUBO
                     # Timing for QAOA
                     start_time = time.time()
                     qaoa = QAOAAnsatz(cost_operator=qubitOp, reps=1)
                     qaoa_observable_pat = '[A-Z]+'
-                    observables = (PauliList(re.findall(r"'([A-Z]+)'", str(qubitOp))))
-                    #observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
+                    observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
                     qaoa_time = time.time() - start_time
 
                     qa = qaoa.decompose().decompose().decompose().decompose()
                     # display(qa.draw(scale=0.4))
 
-                    # pickle the qaoa ansatz
-                    qc_file = os.path.join(qaoa_graph_obj_dir, f'{n}_{p}_{seed}_qaoa.pickle')
+                    # pickle the qaoa ansatz with qpy- problematic when n>250
+                    '''qc_file = os.path.join(qaoa_graph_obj_dir,f'{n}_{p}_{seed}_qaoa.qpy')
                     with open(file=qc_file, mode='wb') as qcfile:
+                        qpy.dump(qaoa, qcfile)'''
+
+                    # pickle the qaoa ansatz
+                    # qc_file = os.path.join(qaoa_graph_obj_dir,f'{n}_{p}_{seed}_qaoa.pickle')
+                    qc_file = f'{n}_{p}_{seed}_qaoa.pickle'
+
+                    with open(file=os.path.join(qaoa_graph_obj_dir, qc_file), mode='wb') as qcfile:
                         pickle.dump(qaoa, qcfile)
 
                     # Populate the df
                     df.loc[i, 'n'] = n
                     df.loc[i, 'p'] = p
                     df.loc[i, 'seed'] = seed
+                    df.loc[i, 'File Path'] = qaoa_graph_obj_dir
                     df.loc[i, 'Graph File'] = graph_filename
                     df.loc[i, 'qaoa Ansatz File'] = qc_file
-                    df.loc[i, 'QP'] = str(qp)
-                    df.loc[i, 'Ising Hamiltonian Runtime'] = qubo_conversion_time
-                    df.loc[i, 'Ansatz Building Runtime'] = qaoa_time
+                    # df.loc[i,'qubitOp'] = str(qubitOp)
+                    # df.loc[i,'QP'] = np.matrix(M)
+                    df.loc[i, 'Ising Hamiltonian Runtime'] = np.round(qubo_conversion_time, 5)
+                    df.loc[i, 'Ansatz Building Runtime'] = np.round(qaoa_time, 5)
 
                 except Exception as e:
                     print(f"An error occurred: {e}")
@@ -652,7 +662,9 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                     if i == 1:
                         seed1 = seed
                         # seedn = seed if i==input_df.shape[0]
-                    graph_filename = row[3]
+
+                    file_path = row[3]
+                    graph_filename = os.path.join(file_path, row[4])
 
                     # import ast
                     # qsubgraph_prop = eval(qsub_prop)
@@ -663,13 +675,16 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                     qnum_sub_graphs, largest_subgraph_size, qsubgraph_prop, max_subgraph_nodes = get_subgraph_properties1(
                         q)
 
-                    qc_file = row[4]
-                    #qubitOp = row[7]
-                    qp = row[7]
+                    qc_file = os.path.join(file_path, row[5])
+                    # qubitOp = row[7]
+                    # M = row[7]
+                    # print(M)
+                    # print(np.matrix(M))
+                    M = nx.adjacency_matrix(q).todense()
+                    qp = create_qp_from_qmatrix(M)
                     qp2qubo = QuadraticProgramToQubo()
                     qubo = qp2qubo.convert(qp)
                     qubitOp, offset = qubo.to_ising()
-
                     # read the file with qaoa ansatz object
                     st = time.time()
 
@@ -683,15 +698,14 @@ def ckt_cut_qaoa(exp_data_file, max_qubit_counts, partition_methods, start_seed=
                     reload_time = time.time() - st
                     print(f'qaoa ansatz reload time: {reload_time}')
                     qaoa_observable_pat = '[A-Z]+'
-                    #observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
-                    observables = (PauliList(re.findall(r"'([A-Z]+)'", str(qubitOp))))
+                    observables = PauliList(re.findall(qaoa_observable_pat, str(qubitOp)))
                     # print(qubitOp)
                     print(f'\n\nCKT Cutting for size {n}, n*p {p}, seed {seed}')
                     # Get subgraphs' properties
                     for pm_ in partition_methods:
                         try:
                             print(pm_)
-                            #print('errored out?')
+                            print('errored out?')
                             i += 1
                             pm_part_lbl, partitioning_runtime = partitioning2(max_qubit_cnt,
                                                                               qsubgraph_prop,
