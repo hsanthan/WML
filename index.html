@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sample Web Page</title>
+    <!-- External CSS link (replace with your actual path) -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts (optional) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>`
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="fetchProperties">Get My Properties</button>
+    <pre id="output"></pre>
+
+    <!-- Main Section -->
+    <main>
+        <section id="home">
+            <h1>Welcome!!</h1>
+            <p>Check out the assistant!!!</p>
+        </section>
+    </main>
+
+    
+    <script>
+        async function authenticateAndFetch() {
+            const homeUrl = 'https://ops.hub.videotron.com';
+            const payload = new URLSearchParams({
+                // Add the required payload fields for authentication
+                'username': 'videotron\\sysshppelastic', 'password': 'HPuT87?-BuwHH7jr'
+                
+                
+            });
+
+            try {
+                // Step 1: Perform the initial POST request
+                const homeResponse = await fetch(homeUrl, {
+                    method: 'POST',
+                    body: payload,
+                    redirect: 'follow' // Allow redirects
+                });
+
+                // Extract the "NSC_TASS" cookie from the response headers
+                const cookies = homeResponse.headers.get('set-cookie');
+                const nscTass = /NSC_TASS=(.*?);/.exec(cookies)?.[1];
+
+                if (!nscTass) {
+                    throw new Error("Failed to retrieve NSC_TASS cookie.");
+                }
+
+                const code = nscTass.replace('https://ops.hub.videotron.com/&code=', '');
+
+                // Step 2: Construct headers with NSC_TASS
+                const headers = {
+                    'Accept': 'application/json',
+                    'Cookie': `NSC_TASS=https://ops.hub.videotron.com/_api/web/lists&code=${code}; NSC_TMAP=AUTH-PROF-OPS-HUB-VIDEOTRON`,
+                };
+
+                // Step 3: Perform the second POST request
+                const authResponse = await fetch("https://rpauth.videotron.com/nf/auth/doAuthentication.do", {
+                    method: 'POST',
+                    body: payload,
+                    headers: headers,
+                    redirect: 'follow' // Allow redirects
+                });
+
+                // Extract the "NSC_TMAS" cookie from the response headers
+                const authCookies = authResponse.headers.get('set-cookie');
+                const nscTmas = /NSC_TMAS=(.*?);/.exec(authCookies)?.[1];
+
+                if (!nscTmas) {
+                    throw new Error("Failed to retrieve NSC_TMAS cookie.");
+                }
+
+                // Step 4: Make a subsequent API call using the session cookies
+                const globalHeaders = {
+                    'Accept': 'application/json',
+                    'Cookie': `NSC_TMAS=${nscTmas}`,
+                };
+
+                const apiResponse = await fetch("https://ops.hub.videotron.com/_api/SP.UserProfiles.PeopleManager/GetMyProperties", { 
+                    method: 'GET',
+                    headers: globalHeaders,
+                });
+
+                if (!apiResponse.ok) {
+                    throw new Error(`API call failed with status: ${apiResponse.status}`);
+                }
+
+                const apiData = await apiResponse.json();
+
+                // Display the API response in the <pre> element
+                document.getElementById("output").textContent = JSON.stringify(apiData, null, 2);
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById("output").textContent = `Error: ${error.message}`;
+            }
+        }
+
+        // Attach the function to the button click event
+        document.getElementById("startProcess").addEventListener("click", authenticateAndFetch);
+    </script>
+    <script>
+        window.watsonAssistantChatOptions = {
+        integrationID: "74bb7a1f-9eca-496e-a56d-2d1187e4fd2f", // The ID of this integration.
+        region: "wxo-us-south", // The region your integration is hosted in.
+        serviceInstanceID: "2e5b710b-e550-4707-8332-6e412dd2d87d", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+      };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+
+</html>
