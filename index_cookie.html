@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom HTTP Adapter</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Custom HTTP Adapter in JavaScript</h1>
+    <button id="updateCookieButton">Update Cookies</button>
+    <p id="statusMessage"></p>
+
+    <script>
+        async function updateCookie() {
+            alert('update called')
+            const statusMessage = document.getElementById('statusMessage');
+            statusMessage.textContent = "Updating cookies...";
+            console.log(`${new Date().toISOString()}: Updating cookies`);
+
+            const VideotronUName = "videotron\\sysshppelastic";
+            const VideotronPass = "HPuT87?-BuwHH7jr";
+            const payload = `login=${VideotronUName}&passwd=${VideotronPass}&StateContext=bG9naW5zY2hlbWE9ZGVmYXVsdA==`;
+
+            const homeUrl = 'https://ops.hub.videotron.com';
+
+            try {
+                // First POST request
+                const response1 = await axios.post(homeUrl, payload, {
+                    maxRedirects: 0,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                });
+
+                const setCookieHeader = response1.headers['set-cookie'] || [];
+                const nscTass = setCookieHeader.find(cookie => cookie.includes('NSC_TASS')) || '';
+                const code = nscTass.split('&code=')[1] || '';
+
+                const headers = {
+                    'Accept': 'application/json',
+                    'Cookie': `NSC_TASS=https://ops.hub.videotron.com/_api/web/lists&code=${code}; NSC_TMAP=AUTH-PROF-OPS-HUB-VIDEOTRON`
+                };
+
+                // Second POST request
+                await axios.post(
+                    'https://rpauth.videotron.com/nf/auth/doAuthentication.do',
+                    payload,
+                    { headers }
+                );
+
+                statusMessage.textContent = "Cookies updated successfully.";
+                console.log("Cookies updated successfully.");
+            } catch (error) {
+                statusMessage.textContent = "Error updating cookies. Check the console for details.";
+                console.error("Error updating cookies:", error);
+            }
+        }
+
+        // Add event listener to button
+        document.getElementById('updateCookieButton').addEventListener('click', updateCookie);
+    </script>
+</body>
+</html>

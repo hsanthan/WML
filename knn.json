@@ -1,0 +1,11 @@
+{"knn":{
+    "k":6,
+    "field":"articles.article_embedding.predicted_value",
+"num_candidates":100,
+"query_vector_builder":{
+    "text_embedding":{
+        "model_id":"intfloat__multilingual-e5-large","model_text":"$QUERY"
+        }
+        }
+        },"_source":true
+    }
